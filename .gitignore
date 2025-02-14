@@ -1,0 +1,81 @@
+# 기본적인 Git 관련 설정
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
+
+# 빌드 결과물 제외
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Script/
+Content/
+
+# 프로젝트 설정에서 생성되는 로컬 파일 제외
+*.log
+*.vs/
+*.idea/
+*.vscode/
+
+# 언리얼 관련 파일 제외
+*.aps
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.csproj
+*.sdf
+*.sln
+*.suo
+*.vcxproj*
+*.csproj*
+*.pyc
+*.pdb
+*.mod
+*.ilk
+*.obj
+*.exp
+*.idb
+*.pch
+*.pdb
+*.res
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.o
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.ncb
+*.sdf
+*.db
+*.cache
+*.pidb
+*.booproj
+*.svd
+
+# 프로젝트 파일 중 반드시 유지해야 하는 파일
+!Config/
+!Source/
+!Content/PF/
+!Content/LevelPrototyping/
+
+# 불필요한 임시 파일 제외
+# Content/__ExternalObjects__/
+# Content/__ExternalActors__/
+
+# 불필요한 기본 제공 콘텐츠 제외
+# Content/StarterContent/
+# Content/Characters/
